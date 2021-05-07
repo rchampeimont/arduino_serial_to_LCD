@@ -10,6 +10,8 @@ The simplest way to send serial data to the Arduino is to use the serial monitor
 # Real serial port (RS232)
 For the challenge, I wanted to send data from my computer's real serial port (RS232 9-pin connector). For that, I created an adaptor circuit because the voltages on a computer serial port are different from what the Arduino expects. Don't connect them directly, it would fry your Arduino according to the documentation (https://www.arduino.cc/reference/en/language/functions/communication/serial/). 
 
+You can watch my YouTube video where I show the circuit working: https://www.youtube.com/watch?v=u4Crk8dcw9A
+
 This adaptor circuit translates -12V (logical 1 in RS232) to 5V and +12V (logical 0) to 0V.
 
 Diagram:
