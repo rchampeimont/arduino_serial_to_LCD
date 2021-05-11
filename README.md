@@ -8,7 +8,7 @@ How to connect the LCD screen:
 The simplest way to send serial data to the Arduino is to use the serial monitor in the Arduino IDE and the USB cable.
 
 # Real serial port (RS232)
-## Computer to Arduino RX pin
+## Computer TX to Arduino RX
 For the challenge, I wanted to send data from my computer's real serial port (RS232 9-pin connector). For that, I created an adaptor circuit because the voltages on a computer serial port are different from what the Arduino expects. Don't connect the computer TX pin to the Arduino RX pin directly, it would fry your Arduino according to the documentation (https://www.arduino.cc/reference/en/language/functions/communication/serial/). 
 
 You can watch my YouTube video where I show the circuit working: https://www.youtube.com/watch?v=u4Crk8dcw9A
@@ -22,8 +22,8 @@ I have represented the Arduino RX pin as a diode and resistor just to think abou
 Photo:
 ![Circuit photo](/circuit/photo_annotated.jpg?raw=true)
 
-## Arduino TX pin to computer
-Altough it is not used by this program, I also created the circuit to perform seral communication in the reverse direction:
+## Arduino TX to computer RX
+Altough it is not used by this program, I also created the circuit to perform serial communication in the reverse direction, ie. from Arduino TX pin to computer RS232 RX pin.
 
 This adaptor circuit translates 0V to 5V (understood as logical 0 in RS232) and 5V to -9V (understood as logical 1 in RS232).
 
