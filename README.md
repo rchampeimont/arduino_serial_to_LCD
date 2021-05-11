@@ -27,7 +27,7 @@ Altough it is not used by this program, I also created the circuit to perform se
 
 Diagram:
 ![Circuit diagram](/circuit/diagram_TX.jpg?raw=true)
-I have represented the Arduino TX pin as a switch to 5V/GND and just to think about the circuit, but the actual hardware inside is probably different.
+I have represented the Arduino TX pin as a switch to +5V/GND just to think about the circuit, but the actual hardware inside is probably different.
 
 Photo:
 ![Circuit photo](/circuit/photo_annotated_TX.jpg?raw=true)
