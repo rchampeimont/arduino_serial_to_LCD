@@ -33,3 +33,4 @@ I have represented the Arduino TX pin as a switch to +5V/GND just to think about
 
 Photo:
 ![Circuit photo](/circuit/photo_annotated_TX.jpg?raw=true)
+(The GND of the RS232 port is connected to the Arduino GND off camera)
