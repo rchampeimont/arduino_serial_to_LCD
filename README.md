@@ -8,5 +8,4 @@ How to connect the LCD screen:
 The simplest way to send serial data to the Arduino is to use the serial monitor in the Arduino IDE and the USB cable.
 
 # Variant 2: Real serial port (RS232)
-![Circuit wiring with MAX232 - photo](/circuit/MAX232_photo.jpg?raw=true)
 I cover this topic in a dedicated repository: https://github.com/raphaelchampeimont/arduino_RS232
